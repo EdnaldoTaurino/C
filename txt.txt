@@ -1,0 +1,14 @@
+
+// Função : 
+// Autor : Ednaldo Taurino    
+// Data  : 23/09/2023
+
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+setlocale(LC_ALL, "Portuguese_BRazil");   
+
+    
+return 0;
+}

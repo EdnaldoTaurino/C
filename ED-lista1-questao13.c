@@ -14,8 +14,8 @@ setlocale(LC_ALL, "Portuguese_BRazil");
     printf("Digite a velocidade: ");
     scanf("%f", &velocidade);
 
-    metros = velocidade / 3.6;
-    printf("\nO valor em Metros por segundo é %.1f metros por segundo m/s\n ",metros );
+    metros = velocidade * 3.6;
+    printf("\nO valor em Metros por segundo é %.0f quilometros por hora km/h \n ",metros );
 
 
 return 0;

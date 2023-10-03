@@ -17,7 +17,6 @@ Média de Aproveitamento Conceito
 
 #include <stdio.h>
 #include <locale.h>
-#include <stdlib.h>
 
 int main(){
     setlocale(LC_ALL, "Portuguese_BRazil");
@@ -33,20 +32,29 @@ int main(){
 
     if (ma >= 9)
     {
+        printf("as notas do aluno foram: %.2f %.2f %.2f", nota1, nota2, nota3);
+        printf("Sua média foi de %.2f", media);
         printf("\nA sua Média é %.2f\nParabens você foi APROVADO! conceito A\n", ma );
-        system("pause");
+        
     }else if (ma >= 7.5 && ma <= 9.0){
-
+        printf("as notas do aluno foram: %.2f %.2f %.2f", nota1, nota2, nota3);
+        printf("Sua média foi de %.2f", media);
         printf ("A sua Média é %.2f\nVoce está no conceito B\n", ma );
-        system("pause");
+        
 
     }else if (ma >= 6 && ma <= 7.5){
+        printf("as notas do aluno foram: %.2f %.2f %.2f", nota1, nota2, nota3);
+        printf("Sua média foi de %.2f", media);
         printf ("A sua Média é %.2f\nVoce está em conceito C\n", ma ); 
 
     }else if(ma >= 4 && ma <= 6){
+        printf("as notas do aluno foram: %.2f %.2f %.2f", nota1, nota2, nota3);
+        printf("Sua média foi de %.2f", media);
         printf("A sua Média é %.2f\nVoce está em conceito D\n", ma );
 
     }else{
+        printf("as notas do aluno foram: %.2f %.2f %.2f", nota1, nota2, nota3);
+        printf("Sua média foi de %.2f", media);
         printf("A sua Média é %.2f\nVoce está REPROVADO!\n", ma );
     }
       
